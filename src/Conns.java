@@ -6,7 +6,7 @@ public class Conns {
     public Conns(){  
         try{  
         Class.forName("com.mysql.cj.jdbc.Driver");  
-        c=DriverManager.getConnection("jdbc:mysql://localhost:3306/tms","root","root");  
+        c=DriverManager.getConnection("jdbc:mysql://localhost:3306/tms","akshay@123","root");  
         //here tms is database name, root is username and password  
         stmt=c.createStatement();
         }catch(Exception e){
